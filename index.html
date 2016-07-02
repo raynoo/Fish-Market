@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Catch of the Day!</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/build/css/style.css">
+  <link rel="shortcut icon" href="http://facebook.github.io/react/favicon.ico">
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+    var config = {
+      apiKey: "AIzaSyAORkTGyD2q-YxyXl60zEICFp_yInk9qpg",
+      authDomain: "catch-of-the-day-8e8e2.firebaseapp.com",
+      databaseURL: "https://catch-of-the-day-8e8e2.firebaseio.com",
+      storageBucket: "catch-of-the-day-8e8e2.appspot.com",
+    };
+    firebase.initializeApp(config);
+  </script>
+</head>
+<body>
+  
+    <input type="checkbox" id="fold">
+    <label for="fold">Fold</label>
+    
+    <div id="main">
+      <!-- This is where our React app will go -->
+    </div>
+
+  <script src="/build/main.js"></script>
+
+</body>
+</html>
+
+<!-- do #5 -->
